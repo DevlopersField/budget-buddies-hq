@@ -65,7 +65,7 @@ const MonthlyBudget: React.FC = () => {
             <Label htmlFor="total-budget">Total Monthly Budget</Label>
             <NumberInput
               id="total-budget"
-              prefix="$"
+              prefix="₹"
               value={totalBudget || ''}
               onChange={setTotalBudget}
               placeholder="0.00"
@@ -76,7 +76,7 @@ const MonthlyBudget: React.FC = () => {
             <Label htmlFor="extra-savings">Extra Savings</Label>
             <NumberInput
               id="extra-savings"
-              prefix="$"
+              prefix="₹"
               value={extraSavings || ''}
               onChange={setExtraSavings}
               placeholder="0.00"

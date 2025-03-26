@@ -107,7 +107,7 @@ const DailyEntry: React.FC = () => {
             <Label htmlFor="amount">Amount</Label>
             <NumberInput
               id="amount"
-              prefix="$"
+              prefix="₹"
               value={amount || ''}
               onChange={setAmount}
               placeholder="0.00"
